@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="22sp" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_delete_forever_black_24dp"
+    android:id="@+id/delete"
+    android:layout_alignRight="@+id/rid"
+    />
+    <TextView
+        android:id="@+id/rname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rid"
+        android:text="Name"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/rmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rname"
+        android:text="MAil"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/rphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rmail"
+        android:text="Phone Number"
+        android:textSize="22sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:id="@+id/edit"
+        android:layout_alignRight="@+id/rphone"
+        android:layout_below="@+id/rmail"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="15dp"
+        android:background="#645646"/>
+
+
+</RelativeLayout>
